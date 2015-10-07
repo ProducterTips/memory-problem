@@ -8,22 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		6A20C14A1BC57CC000122982 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A20C1491BC57CC000122982 /* AppDelegate.swift */; };
-		6A20C14C1BC57CC000122982 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A20C14B1BC57CC000122982 /* MasterViewController.swift */; };
 		6A20C14E1BC57CC000122982 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A20C14D1BC57CC000122982 /* DetailViewController.swift */; };
 		6A20C1511BC57CC000122982 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A20C14F1BC57CC000122982 /* Main.storyboard */; };
 		6A20C1531BC57CC000122982 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A20C1521BC57CC000122982 /* Assets.xcassets */; };
 		6A20C1561BC57CC000122982 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A20C1541BC57CC000122982 /* LaunchScreen.storyboard */; };
+		6A20C15E1BC57D5000122982 /* BadGuy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A20C15D1BC57D5000122982 /* BadGuy.swift */; settings = {ASSET_TAGS = (); }; };
+		6A20C1601BC5829200122982 /* GoodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A20C15F1BC5829200122982 /* GoodViewController.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		6A20C1461BC57CC000122982 /* MemoryProblem.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MemoryProblem.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A20C1491BC57CC000122982 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		6A20C14B1BC57CC000122982 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
 		6A20C14D1BC57CC000122982 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		6A20C1501BC57CC000122982 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6A20C1521BC57CC000122982 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6A20C1551BC57CC000122982 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6A20C1571BC57CC000122982 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6A20C15D1BC57D5000122982 /* BadGuy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BadGuy.swift; sourceTree = "<group>"; };
+		6A20C15F1BC5829200122982 /* GoodViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoodViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,8 +59,9 @@
 			isa = PBXGroup;
 			children = (
 				6A20C1491BC57CC000122982 /* AppDelegate.swift */,
-				6A20C14B1BC57CC000122982 /* MasterViewController.swift */,
 				6A20C14D1BC57CC000122982 /* DetailViewController.swift */,
+				6A20C15F1BC5829200122982 /* GoodViewController.swift */,
+				6A20C15D1BC57D5000122982 /* BadGuy.swift */,
 				6A20C14F1BC57CC000122982 /* Main.storyboard */,
 				6A20C1521BC57CC000122982 /* Assets.xcassets */,
 				6A20C1541BC57CC000122982 /* LaunchScreen.storyboard */,
@@ -138,8 +141,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				6A20C14E1BC57CC000122982 /* DetailViewController.swift in Sources */,
-				6A20C14C1BC57CC000122982 /* MasterViewController.swift in Sources */,
 				6A20C14A1BC57CC000122982 /* AppDelegate.swift in Sources */,
+				6A20C15E1BC57D5000122982 /* BadGuy.swift in Sources */,
+				6A20C1601BC5829200122982 /* GoodViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

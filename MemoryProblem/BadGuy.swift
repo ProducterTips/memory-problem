@@ -9,5 +9,6 @@
 import UIKit
 
 class BadGuy: NSObject {
-
+    
+    var holdAction: (() -> Void)?
 }
